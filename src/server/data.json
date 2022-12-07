@@ -1,0 +1,454 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "imageUrl": "https://i.ibb.co/Ltr8kMm/item2.png",
+      "title": "Сет Запеченный Килограмм",
+      "price": 1499,
+      "weight": 1135,
+      "category": "Сеты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://i.ibb.co/xzrVKm9/item3.png",
+      "title": "Сет Лайт Кинг",
+      "price": 2159,
+      "weight": 2060,
+      "category": "Сеты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://i.ibb.co/LN56cPZ/item4.png",
+      "title": "Сет Запеченные Ходоки",
+      "price": 959,
+      "weight": 720,
+      "category": "Сеты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://i.ibb.co/sbWntyw/item5.png",
+      "title": "Сет Инь и Ян",
+      "price": 2599,
+      "weight": 1965,
+      "category": "Сеты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://i.ibb.co/b1253dv/item6.png",
+      "title": "Сет Ями Ями",
+      "price": 1599,
+      "weight": 1007,
+      "category": "Сеты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://i.ibb.co/zhkWj1f/item7.png",
+      "title": "Сет Сытный",
+      "price": 1299,
+      "weight": 665,
+      "category": "Сеты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://i.ibb.co/0sBDJnt/item8.png",
+      "title": "Сет Японамама",
+      "price": 2559,
+      "weight": 1985,
+      "category": "Сеты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://i.ibb.co/sbWntyw/item5.png",
+      "title": "Сет Манифик",
+      "price": 2239,
+      "weight": 965,
+      "category": "Сеты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://i.ibb.co/LN56cPZ/item4.png",
+      "title": "Сет Гномус",
+      "price": 1689,
+      "weight": 1265,
+      "category": "Сеты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://i.ibb.co/sbWntyw/item5.png",
+      "title": "Сет Японапапа",
+      "price": 1550,
+      "weight": 1800,
+      "category": "Сеты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://i.ibb.co/Ltr8kMm/item2.png",
+      "title": "Сет Авантюра",
+      "price": 950,
+      "weight": 1050,
+      "category": "Сеты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://i.ibb.co/xzrVKm9/item3.png",
+      "title": "Сет Грабеж",
+      "price": 800,
+      "weight": 2000,
+      "category": "Сеты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 13,
+      "imageUrl": "https://i.ibb.co/pX3XbLH/Rectangle-5.png",
+      "title": "Цитрусовый шейк",
+      "price": 270,
+      "weight": 450,
+      "category": "Напитки",
+      "cartQuantity": 0
+    },
+    {
+      "id": 14,
+      "imageUrl": "https://i.ibb.co/09Yn4pC/Rectangle-6.png",
+      "title": "Кола Классическая",
+      "price": 150,
+      "weight": 450,
+      "category": "Напитки",
+      "cartQuantity": 0
+    },
+    {
+      "id": 15,
+      "imageUrl": "https://i.ibb.co/DC0HJxL/Rectangle-7.png",
+      "title": "Милкшейк Орео",
+      "price": 300,
+      "weight": 500,
+      "category": "Напитки",
+      "cartQuantity": 0
+    },
+    {
+      "id": 16,
+      "imageUrl": "https://i.ibb.co/qWqndGF/Rectangle-8.png",
+      "title": "Милкшейк Клубничный",
+      "price": 300,
+      "weight": 500,
+      "category": "Напитки",
+      "cartQuantity": 0
+    },
+    {
+      "id": 17,
+      "imageUrl": "https://i.ibb.co/NKKQG5j/Rectangle-9.png",
+      "title": "Фанта Sugar Free",
+      "price": 150,
+      "weight": 450,
+      "category": "Напитки",
+      "cartQuantity": 0
+    },
+    {
+      "id": 18,
+      "imageUrl": "https://i.ibb.co/fHBWw44/Rectangle-10.png",
+      "title": "Марианская впадина",
+      "price": 250,
+      "weight": 450,
+      "category": "Напитки",
+      "cartQuantity": 0
+    },
+    {
+      "id": 19,
+      "imageUrl": "https://i.ibb.co/SvtbQjP/Rectangle-11.png",
+      "title": "Лаймовый Фреш",
+      "price": 280,
+      "weight": 300,
+      "category": "Напитки",
+      "cartQuantity": 0
+    },
+    {
+      "id": 20,
+      "imageUrl": "https://i.ibb.co/9tpVfGG/Rectangle-12.png",
+      "title": "Зеленый чай Танг-хуо",
+      "price": 270,
+      "weight": 350,
+      "category": "Напитки",
+      "cartQuantity": 0
+    },
+    {
+      "id": 21,
+      "imageUrl": "https://i.ibb.co/9c7FbJc/Rectangle-13.png",
+      "title": "Цитрусовый лимонад",
+      "price": 220,
+      "weight": 400,
+      "category": "Напитки",
+      "cartQuantity": 0
+    },
+    {
+      "id": 22,
+      "imageUrl": "https://i.ibb.co/Pgp6Jv7/Rectangle-15.png",
+      "title": "Клубничный милкшейк",
+      "price": 300,
+      "weight": 500,
+      "category": "Напитки",
+      "cartQuantity": 0
+    },
+    {
+      "id": 23,
+      "imageUrl": "https://i.ibb.co/vhxC4hP/Rectangle-16.png",
+      "title": "Яблочный фреш",
+      "price": 260,
+      "weight": 450,
+      "category": "Напитки",
+      "cartQuantity": 0
+    },
+    {
+      "id": 24,
+      "imageUrl": "https://i.ibb.co/XD2h0VB/Rectangle-17.png",
+      "title": "Мисо суп",
+      "price": 229,
+      "weight": 300,
+      "category": "Супы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 25,
+      "imageUrl": "https://i.ibb.co/pJtFPTB/Rectangle-18.png",
+      "title": "Мисо суп сливочный с лососем",
+      "price": 289,
+      "weight": 350,
+      "category": "Супы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 26,
+      "imageUrl": "https://i.ibb.co/m9Q3Smb/Rectangle-19.png",
+      "title": "Суп Том Ям",
+      "price": 280,
+      "weight": 320,
+      "category": "Супы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 27,
+      "imageUrl": "https://i.ibb.co/xfXCnFB/Rectangle-20.png",
+      "title": "Суп Джиго",
+      "price": 190,
+      "weight": 280,
+      "category": "Супы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 28,
+      "imageUrl": "https://i.ibb.co/0sMSb6T/Rectangle-21.png",
+      "title": "Китайский кисло-сладкий суп",
+      "price": 320,
+      "weight": 400,
+      "category": "Супы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 29,
+      "imageUrl": "https://i.ibb.co/kXDPqVH/Rectangle-24.png",
+      "title": "Суп Мапу япи",
+      "price": 360,
+      "weight": 400,
+      "category": "Супы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 30,
+      "imageUrl": "https://i.ibb.co/2PTMbkn/Rectangle-22.png",
+      "title": "Суп Джингл",
+      "price": 250,
+      "weight": 340,
+      "category": "Супы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 31,
+      "imageUrl": "https://i.ibb.co/4ZZN7rw/f9263cd1df69a6e5af7c7ff3a0634a45-216x188.webp",
+      "title": "Суши сяке",
+      "price": 125,
+      "weight": 30,
+      "category": "Суши и Гунканы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 32,
+      "imageUrl": "https://i.ibb.co/48rHXqm/bddd4ab6030b67f65c0ead8cdf628dc6-216x188.webp",
+      "title": "Опаленные суши с лососем",
+      "price": 169,
+      "weight": 35,
+      "category": "Суши и Гунканы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 33,
+      "imageUrl": "https://i.ibb.co/0GMY5tY/9b463d240534ae607f49288ee2a25d31-216x188.webp",
+      "title": "Гункан сырный",
+      "price": 79,
+      "weight": 35,
+      "category": "Суши и Гунканы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 34,
+      "imageUrl": "https://i.ibb.co/37V7MSd/4f5b3a6d6bdcd3e4b80c0bbae46800d6-216x188.webp",
+      "title": "Гункан тунец",
+      "price": 119,
+      "weight": 35,
+      "category": "Суши и Гунканы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 35,
+      "imageUrl": "https://i.ibb.co/8sN8sTt/65018c08494ae3bfae7bf8db71c3cf9c-216x188.webp",
+      "title": "Гункан тунец Хот запеченный",
+      "price": 119,
+      "weight": 90,
+      "category": "Суши и Гунканы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 36,
+      "imageUrl": "https://i.ibb.co/cDLGd4b/a1d5f36d1a45b155800c2e2d8bdfe70b-216x188.webp",
+      "title": "Гункан Эби",
+      "price": 99,
+      "weight": 35,
+      "category": "Суши и Гунканы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 37,
+      "imageUrl": "https://i.ibb.co/bJs8mzH/b13d6266c3f000bb514321e97200ea87-216x188.webp",
+      "title": "Суши унаги",
+      "price": 139,
+      "weight": 30,
+      "category": "Суши и Гунканы",
+      "cartQuantity": 0
+    },
+    {
+      "id": 38,
+      "imageUrl": "https://i.ibb.co/PF1w4DQ/26bba0a435fa24ff5acdb61beb34cc99-216x188.webp",
+      "title": "Рол Тропикана",
+      "price": 295,
+      "weight": 280,
+      "category": "Десерты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 39,
+      "imageUrl": "https://i.ibb.co/X40YBhx/444f0b27d695caf88760c2e330934c3e-216x188.webp",
+      "title": "Чизкейк ванильный",
+      "price": 219,
+      "weight": 100,
+      "category": "Десерты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 40,
+      "imageUrl": "https://i.ibb.co/T01fNqs/2578f75ecf78cdd4684c8158f2d799d4-216x188.webp",
+      "title": "Десерт Банана",
+      "price": 159,
+      "weight": 150,
+      "category": "Десерты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 41,
+      "imageUrl": "https://i.ibb.co/6n20Wjj/cd4d3a1af1c99c7f6ce9a813b51406c8-216x188.webp",
+      "title": "Фруктовый Роти",
+      "price": 295,
+      "weight": 280,
+      "category": "Десерты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 42,
+      "imageUrl": "https://i.ibb.co/4pgQ1gN/d797d62510792d1f4a7eecc9e74d8721-216x188.webp",
+      "title": "Чизкейк шоколадный",
+      "price": 219,
+      "weight": 110,
+      "category": "Десерты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 43,
+      "imageUrl": "https://i.ibb.co/27hPScv/f4fc3451c126697a44ef47ec5275195a-216x188.webp",
+      "title": "Чизкейк клубичный",
+      "price": 219,
+      "weight": 100,
+      "category": "Десерты",
+      "cartQuantity": 0
+    },
+    {
+      "id": 44,
+      "imageUrl": "https://i.ibb.co/FYnqcrG/Rectangle-33.png",
+      "title": "Чизкейк шоколадный",
+      "price": 300,
+      "weight": 300,
+      "category": "Wok",
+      "cartQuantity": 0
+    },
+    {
+      "id": 45,
+      "imageUrl": "https://i.ibb.co/HKYDZNf/Rectangle-34.png",
+      "title": "Удон с курицей под сливочным соусом",
+      "price": 290,
+      "weight": 350,
+      "category": "Wok",
+      "cartQuantity": 0
+    },
+    {
+      "id": 46,
+      "imageUrl": "https://i.ibb.co/N94jT23/Rectangle-35.png",
+      "title": "Лапша по-гавайски",
+      "price": 350,
+      "weight": 400,
+      "category": "Wok",
+      "cartQuantity": 0
+    },
+    {
+      "id": 47,
+      "imageUrl": "https://i.ibb.co/LCj5g7k/Rectangle-36.png",
+      "title": "Удон с овощами под соусом терияки",
+      "price": 380,
+      "weight": 370,
+      "category": "Wok",
+      "cartQuantity": 0
+    },
+    {
+      "id": 48,
+      "imageUrl": "https://i.ibb.co/LN56cPZ/item4.png",
+      "title": "Сет Запеченные Ходоки",
+      "price": 959,
+      "weight": 720,
+      "category": "Классические",
+      "cartQuantity": 0
+    },
+    {
+      "id": 49,
+      "imageUrl": "https://i.ibb.co/sbWntyw/item5.png",
+      "title": "Сет Инь и Ян",
+      "price": 2599,
+      "weight": 1965,
+      "category": "Классические",
+      "cartQuantity": 0
+    },
+    {
+      "id": 50,
+      "imageUrl": "https://i.ibb.co/b1253dv/item6.png",
+      "title": "Сет Ями Ями",
+      "price": 1599,
+      "weight": 1007,
+      "category": "Классические",
+      "cartQuantity": 0
+    }
+  ]
+}

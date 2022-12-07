@@ -1,0 +1,116 @@
+.addForm_wrapper {
+    h2 {
+        margin-left: 80px;
+
+    }
+}
+
+.main {
+    display: flex;
+    width: 1200px;
+    height: 80%;
+    padding: 50px;
+    border-radius: 20px;
+    margin-left: 30px;
+
+
+}
+
+.main form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border-radius: 20px;
+    height: 500px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.main input,
+.main select {
+    border: 0;
+    border: 1px solid grey;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    outline: none;
+    padding-left: 10px;
+
+}
+
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 255px;
+    height: 350px;
+    margin-left: 150px;
+    border-radius: 15px;
+    background-color: white;
+    -webkit-box-shadow: 0px 1px 8px 3px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 1px 8px 3px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 1px 8px 3px rgba(34, 60, 80, 0.2);
+
+    img {
+        height: 195px;
+        width: 250px;
+        border-radius: 15px 15px 2px 2px;
+        margin: 2px auto;
+    }
+}
+
+
+.itemPrice {
+    font-size: 1em;
+    padding-left: 11px;
+}
+
+.itemName {
+    font-size: 15px;
+    padding-left: 11px;
+}
+
+.itemWeight {
+    margin-top: 15px;
+    padding-left: 11px;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.404);
+}
+
+.addButtontoCart {
+    background-color: #ecece9;
+    width: 12vw;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    height: 40px;
+    font-size: 1em;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.addButtontoCart:hover {
+    background-color: #fcdf00b0;
+}
+
+
+.submitBtn {
+
+    background-color: #ecece9;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    height: 40px;
+    font-size: 1em;
+    margin-top: 20px;
+
+
+}
+
+.submitBtn:hover {
+    background-color: #fcdf00b0;
+
+}

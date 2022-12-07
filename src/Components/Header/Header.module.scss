@@ -1,0 +1,63 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 80vw;
+    background-color: #000000;
+    display: flex;
+    color: black;
+    height: 70px;
+    justify-content: space-between;
+    z-index: 1000;
+
+
+}
+
+.Applogo {}
+
+.lheader {
+    display: flex;
+    height: 5vmin;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+
+
+
+
+
+}
+
+.rheader {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    padding-top: 22px;
+
+    span {
+        margin-left: 30px;
+
+    }
+
+    .profilebar {
+        width: 121px;
+        height: 28px;
+        margin-right: 20px;
+        background-color: #ffffffc5;
+        border-radius: 10px;
+        padding-top: 2px;
+
+    }
+
+    .ordersbar {
+        width: 121px;
+        height: 28px;
+        background-color: #ffffffdc;
+        border-radius: 10px;
+        padding-top: 2px;
+
+
+    }
+
+
+}
