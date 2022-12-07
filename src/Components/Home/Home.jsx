@@ -33,30 +33,31 @@ const Home = () => {
             <div className={home.main}>
 
               <div className={home.addBlock}>
-                <div className={home.addBlock_item}>
-                  <img src='https://kingsushi.pro/images/uploads/3462240e368ac98518bd753e86c6ebe6.webp' alt=""></img>
-                </div>
-                <div className={home.addBlock_item}>
-                  <img src='https://static.tildacdn.com/tild3833-6434-4135-a135-666130373933/2stiHuLW0ymF6Phy4APF.jpg' alt=""></img>
+                <div className={home.addBlock_test}>
+                  <div className={home.addBlock_item}>
+                    <img src='https://kingsushi.pro/images/uploads/3462240e368ac98518bd753e86c6ebe6.webp' alt=""></img>
+                  </div>
+
+                  <div className={home.addBlock_item}>
+                    <img src='https://sushiwok.ru/img/14d1ba7822c9ddbc15873e62d2dd3e1b' alt=""></img>
+
+                  </div>
+                  <div className={home.addBlock_item}>
+                    <img src='https://static.tildacdn.com/tild3833-6434-4135-a135-666130373933/2stiHuLW0ymF6Phy4APF.jpg' alt=""></img>
+
+                  </div>
+                  <div className={home.addBlock_item}>
+                    <img src='https://static.21vek.by/img/tmp/60b641ccdb4ce.jpeg' alt=""></img>
+
+                  </div>
+                  <div className={home.addBlock_item}>
+                    <img src='https://pervymall.ru/upload/resize_cache/iblock/857/960_300_1/g3p19qxcdmpsj2vqha6i4fax36v6asxk.jpg' alt=""></img>
+
+                  </div>
 
                 </div>
-                <div className={home.addBlock_item}>
-                  <img src='https://sushiwok.ru/img/14d1ba7822c9ddbc15873e62d2dd3e1b' alt=""></img>
-
-                </div>
-                <div className={home.addBlock_item}>
-                  <img src='https://static.21vek.by/img/tmp/60b641ccdb4ce.jpeg' alt=""></img>
-
-                </div>
-                <div className={home.addBlock_item}>
-                  <img src='https://pervymall.ru/upload/resize_cache/iblock/857/960_300_1/g3p19qxcdmpsj2vqha6i4fax36v6asxk.jpg' alt=""></img>
-
-                </div>
-
               </div>
-              <div className={home.partnerBlock}>
 
-              </div>
               <Category />
 
               <div className={home.items_container}>

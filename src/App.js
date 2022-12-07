@@ -22,26 +22,25 @@ function App() {
 
     const users = useSelector((state) => state.user.users);
     console.log(users)
-
     return (
 
         <div className="App">
 
             <Routes>
                 <Route exact path="/" element={<Home />} />
-                {users.roles >= 1 ?
+                {users.roles >= 1 &&
                     <>
                         <Route path="/orders" element={<Orders />} />
                         <Route path="/orders/:id" element={<Order />} />
 
                         <Route path="/checkout" element={<Checkout />} />
                     </>
-                    : null
 
-                }
+
+                };
                 <Route path='/auth' element={<Auth />} />
                 <Route path='/register' element={<Register />} />
-                {users.roles == 2 ?
+                {users.roles == 2 &&
 
                     <Route path="admin/*" element={<Admin />}>
                         <Route path="product/*" element={<ProductPage />}>
@@ -52,8 +51,8 @@ function App() {
                             <Route path=":id" element={<OrdersInfo />} />
                             {/* <Route path="add" element={<AddForm />} /> */}
                         </Route>
-                    </Route> : null
-                }
+                    </Route>
+                };
 
                 <Route path="*" element={<NotFound />} />
             </Routes>
