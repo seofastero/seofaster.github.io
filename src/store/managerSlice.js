@@ -11,7 +11,7 @@ const initialState = {
 export const ordersFetch = createAsyncThunk(
     "orders/ordersFetch", () => {
         return axios
-            .get('http://localhost:3003/orders').then((response) => response.data);
+            .get('https://635555bbda523ceadcff89cf.mockapi.io/orders').then((response) => response.data);
     });
 
 const managerSlice = createSlice({
@@ -21,7 +21,7 @@ const managerSlice = createSlice({
 
 
         removeProduct(state, action) {
-            axios.delete(`http://localhost:3003/product/${action.payload.id}`);
+            axios.delete(`https://635555bbda523ceadcff89cf.mockapi.io/product/${action.payload.id}`);
 
             console.log(action.payload.id)
         },
@@ -29,7 +29,7 @@ const managerSlice = createSlice({
             console.log(action.payload)
             axios({
                 method: 'put',
-                url: `http://localhost:3003/product/${action.payload.id}/`,
+                url: `https://635555bbda523ceadcff89cf.mockapi.io/product/${action.payload.id}/`,
                 data: {
                     id: (action.payload.id),
                     imageUrl: (action.payload.imageUrl),
@@ -48,7 +48,7 @@ const managerSlice = createSlice({
             console.log(action.payload)
             axios({
                 method: 'post',
-                url: `http://localhost:3003/product/`,
+                url: `https://635555bbda523ceadcff89cf.mockapi.io/product/`,
                 data: {
                     imageUrl: (action.payload.imageUrl),
                     title: (action.payload.title),
@@ -67,7 +67,7 @@ const managerSlice = createSlice({
             console.log(action.payload)
             axios({
                 method: 'post',
-                url: `http://localhost:3003/product/`,
+                url: `https://635555bbda523ceadcff89cf.mockapi.io/product/`,
                 data: {
                     imageUrl: (action.payload.imageUrl),
                     title: (action.payload.title),
@@ -95,7 +95,7 @@ const managerSlice = createSlice({
             }
             axios({
                 method: 'patch',
-                url: `http://localhost:3003/orders/${action.payload[0].id}/`,
+                url: `https://635555bbda523ceadcff89cf.mockapi.io/orders/${action.payload[0].id}/`,
                 data: {
                     status: action.payload[0].status,
                     statusID: state.statusLine

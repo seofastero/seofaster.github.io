@@ -13,7 +13,7 @@ export const productsFetch = createAsyncThunk(
   "products/productsFetch",
   async (id = null, { rejectWithValue }) => {
     try {
-      const response = await axios.get('http://localhost:3003/product');
+      const response = await axios.get('https://635555bbda523ceadcff89cf.mockapi.io/product');
       return response?.data;
     } catch (error) {
       return rejectWithValue("an error occured");
