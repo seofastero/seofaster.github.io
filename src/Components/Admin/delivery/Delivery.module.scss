@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    width: 95%;
+    height: 100%;
+    background-color: #F6F6F6;
+}
+
+.info_left {
+    width: 25%;
+    height: 100%;
+    background-color: #B6C8C9;
+
+}
+
+.info_main {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.info_right {
+    position: absolute;
+    right: 120px;
+    width: 20vw;
+    margin-top: 20px;
+    height: 85%;
+    background-color: #ffffff;
+}
