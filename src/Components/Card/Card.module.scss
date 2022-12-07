@@ -1,14 +1,52 @@
 /*-----------------------------Header */
 
+@media only screen and (max-width:390px) {
+    .itemContainer {
+        width: 150px;
+        height: 220px;
 
+        img {
+            height: 120px;
+            width: 159px;
+        }
+    }
+
+    .itempriceline {
+
+        margin-top: 15px;
+
+        .itemPrice {
+            font-size: 0.6em;
+            padding-left: 11px;
+        }
+
+
+        .itemWeight {
+            padding-right: 25px;
+            font-size: 0.5em;
+            color: rgba(0, 0, 0, 0.404);
+        }
+    }
+
+    .itemnameline {
+        width: 99%;
+        height: 10%;
+        padding-left: 11px;
+
+
+        .itemName {
+            font-size: 0.6em;
+        }
+    }
+
+}
 
 .itemContainer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     overflow: hidden;
-    width: 209px;
-    height: 290px;
+
     margin-top: 15px;
     border-radius: 15px;
     background-color: white;
@@ -18,45 +56,21 @@
     margin-right: 30px;
 
     img {
-        height: 155px;
-        width: 205px;
+
         border-radius: 15px 15px 2px 2px;
         margin: 2px auto;
     }
 
-    img:active {
-        background-color: black;
-    }
 }
 
 .itempriceline {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 15px;
+
+
 }
 
-.itemnameline {
-    height: 15%;
-    padding-left: 11px;
-
-
-    .itemName {
-        font-size: 0.8em;
-    }
-}
-
-.itemPrice {
-    font-size: 0.8em;
-    padding-left: 11px;
-}
-
-
-.itemWeight {
-    padding-right: 11px;
-    font-size: 0.7em;
-    color: rgba(0, 0, 0, 0.404);
-}
 
 .addButtontoCart {
     background-color: #ecece9;
@@ -102,7 +116,7 @@
     border-radius: 10px;
     border: 0;
     outline: none;
-    height: 30px;
+    height: 10%;
     font-size: 1em;
     margin-left: 10px;
 }
@@ -113,7 +127,7 @@
     border-radius: 10px;
     border: 0;
     outline: none;
-    height: 30px;
+    height: 10%;
     font-size: 1em;
 }
 
@@ -122,13 +136,13 @@
     width: 10%;
     border: 0;
     outline: none;
-    height: 30px;
-    font-size: 1em;
+    height: 10%;
+    font-size: 0.8em;
 
 }
 
 .buttonmenu {
     display: flex;
     width: 90%;
-    height: 30px;
+    height: 10%;
 }
