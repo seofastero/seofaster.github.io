@@ -69,7 +69,7 @@ const cartSlice = createSlice({
       console.log(action.payload, 'яяя')
       axios({
         method: 'post',
-        url: `http://localhost:3003/orders/`,
+        url: `https://635555bbda523ceadcff89cf.mockapi.io/orders`,
         data: {
           deliveryInfo: action.payload[0],
           orderInfo: action.payload[1],
