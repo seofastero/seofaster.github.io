@@ -7,17 +7,18 @@
 
     .wrapper {
         width: 100vw;
-        background: url('https://i.pinimg.com/736x/76/16/10/7616107fba7b5327cf49a395bd008327.jpg');
+        background: url('https://wallpapers.com/images/hd/japanese-cherry-blossom-art-kuzcfbkb7sx8oqaw.jpg');
+        background-color: rgb(21, 58, 63);
 
     }
 
     input {
         width: 95%;
         height: 30px;
-        margin-top: 15px;
+        margin-bottom: 15px;
         border-radius: 10px;
-        border: 1px solid grey;
-        color: rgba(128, 128, 128, 0.541);
+        border: 1px solid rgba(128, 128, 128, 0.664);
+        color: rgba(128, 128, 128, 0.486);
     }
 
     a {
@@ -29,13 +30,14 @@
 .wrapper {
     // background-color: rgba(0, 0, 0, 0.377);
     height: 100vh;
-    padding-top: 200px;
+    padding-top: 30vh;
 }
 
 .container {
 
     background-color: rgb(255, 255, 255);
     margin: 0px auto;
+    margin-top: auto;
     border-radius: 20px;
     -webkit-box-shadow: 1px 0px 11px 6px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 1px 0px 11px 6px rgba(34, 60, 80, 0.2);
@@ -52,7 +54,6 @@
     outline: none;
     height: 40px;
     font-size: 1em;
-    margin-top: 20px;
 }
 
 .addButtontoCart:hover {
