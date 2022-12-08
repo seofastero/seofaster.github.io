@@ -36,8 +36,8 @@ const Register = () => {
     return (
         <div className={style.wrapper}>
             <div className={style.container}>
-                <AuthForm handleClick={handleRegister} />
-                <Link to={'/auth'}>авторизация</Link>
+                <AuthForm handleClick={handleRegister} buttonText={'Зарегистрироваться'} />
+                <Link to={'/auth'}>Войти</Link>
 
             </div>
         </div>

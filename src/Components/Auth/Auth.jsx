@@ -32,7 +32,7 @@ const Auth = () => {
     return (
         <div className={style.wrapper}>
             <div className={style.container}>
-                <AuthForm handleClick={handleLogin} />
+                <AuthForm handleClick={handleLogin} buttonText={'Войти'} />
                 <Link to={'/register'}>Регистрация</Link>
             </div>
         </div>

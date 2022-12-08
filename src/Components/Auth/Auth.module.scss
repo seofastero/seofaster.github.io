@@ -1,12 +1,39 @@
+@media only screen and (max-width:420px) {
+    .container {
+        width: 95%;
+        height: 300px;
+        padding: 50px;
+    }
+
+    .wrapper {
+        width: 100vw;
+        background: url('https://i.pinimg.com/736x/76/16/10/7616107fba7b5327cf49a395bd008327.jpg');
+
+    }
+
+    input {
+        width: 95%;
+        height: 30px;
+        margin-top: 15px;
+        border-radius: 10px;
+        border: 1px solid grey;
+        color: rgba(128, 128, 128, 0.541);
+    }
+
+    a {
+        margin-top: 5px;
+    }
+
+}
+
 .wrapper {
-    background-color: rgba(0, 0, 0, 0.377);
+    // background-color: rgba(0, 0, 0, 0.377);
     height: 100vh;
     padding-top: 200px;
 }
 
 .container {
-    width: 400px;
-    height: 500px;
+
     background-color: rgb(255, 255, 255);
     margin: 0px auto;
     border-radius: 20px;

@@ -5,7 +5,7 @@ import React from 'react'
 import style from './Auth.module.scss'
 import { useForm } from 'react-hook-form'
 import { setUser } from "../../store/userSlice";
-const AuthForm = ({ handleClick }) => {
+const AuthForm = ({ handleClick, buttonText }) => {
     const dispatch = useDispatch();
 
     const cart = useSelector((state) => state.cart);
@@ -38,7 +38,7 @@ const AuthForm = ({ handleClick }) => {
                     )} placeholder='Пароль'></input>
             </label>
             <div>{errors?.firstName && <p>{errors?.password?.message || "error!"}</p>}</div>
-            <button type="submit" className={style.addButtontoCart}>Оплатить</button>
+            <button type="submit" className={style.addButtontoCart}>{buttonText}</button>
 
         </form>
 
