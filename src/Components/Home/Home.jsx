@@ -101,6 +101,12 @@ const Home = () => {
           </>
         )
       }
+      <Link to={'/checkout'}>
+        <div className={home.cartMobile}>
+          <img src="https://i.ibb.co/93H7fJ6/cartmenu.png" alt=""></img>
+          <span>{cart.cartItems.length}</span>
+        </div>
+      </Link>
     </div>
 
   )

@@ -136,6 +136,7 @@ const Checkout = () => {
 
 
             </div>
+
             {
                 cart.cartItems.length == 0 ? (
                     <div className={style.succes_wrapper}>
