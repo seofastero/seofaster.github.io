@@ -4,26 +4,28 @@
     }
 
     .addBlock {
-        height: 16vh;
+        height: 17vh;
         overflow: scroll;
 
         .addBlock_item {
             width: 45vw;
-            height: 14vh;
+            height: 16vh;
             border-radius: 10px;
         }
     }
 
     .main {
-        width: 100%;
+        width: 100vw;
+        padding-bottom: 50px;
 
         .items_container {
-            margin-left: 30px;
+            margin-top: 20px;
         }
     }
 
     .right {
         display: none;
+        visibility: hidden;
     }
 
 }
@@ -48,6 +50,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-around;
         background-color: rgb(255, 255, 255);
 
     }

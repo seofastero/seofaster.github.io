@@ -47,7 +47,7 @@ const Home = () => {
 
                   </div>
                   <div className={home.addBlock_item}>
-                    <img src='https://static.21vek.by/img/tmp/60b641ccdb4ce.jpeg' alt=""></img>
+                    <img src='https://sushiwok.ru/img/14d1ba7822c9ddbc15873e62d2dd3e1b' alt=""></img>
 
                   </div>
                   <div className={home.addBlock_item}>

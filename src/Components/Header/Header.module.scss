@@ -1,11 +1,43 @@
+@media only screen and (max-width:420px) {
+    header {
+        height: 70px;
+
+        .Applogo {
+            position: fixed;
+            top: 10px;
+
+            img {
+
+                height: 7vh;
+
+            }
+        }
+
+    }
+
+    .profilebar {
+        width: 100px;
+        height: 28px;
+
+
+    }
+
+    .ordersbar {
+        width: 100px;
+        height: 28px;
+
+
+
+    }
+}
+
 header {
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100vw;
     background-color: #000000;
     display: flex;
     color: black;
-    height: 70px;
     justify-content: space-between;
     z-index: 1000;
 
@@ -34,15 +66,11 @@ header {
     width: 300px;
     padding-top: 22px;
 
-    span {
-        margin-left: 30px;
-
-    }
 
     .profilebar {
-        width: 121px;
-        height: 28px;
-        margin-right: 20px;
+        text-align: center;
+
+        margin-right: 10px;
         background-color: #ffffffc5;
         border-radius: 10px;
         padding-top: 2px;
@@ -50,11 +78,13 @@ header {
     }
 
     .ordersbar {
-        width: 121px;
-        height: 28px;
+        text-align: center;
+
         background-color: #ffffffdc;
         border-radius: 10px;
         padding-top: 2px;
+        margin-right: 10px;
+
 
 
     }

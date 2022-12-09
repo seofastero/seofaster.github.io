@@ -14,15 +14,17 @@
 
     input {
         width: 95%;
-        height: 30px;
+        height: 37px;
         margin-bottom: 15px;
         border-radius: 10px;
         border: 1px solid rgba(128, 128, 128, 0.664);
         color: rgba(128, 128, 128, 0.486);
+
     }
 
     a {
-        margin-top: 5px;
+        margin-top: 15px;
+        margin-left: 3px;
     }
 
 }
@@ -37,7 +39,6 @@
 
     background-color: rgb(255, 255, 255);
     margin: 0px auto;
-    margin-top: auto;
     border-radius: 20px;
     -webkit-box-shadow: 1px 0px 11px 6px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 1px 0px 11px 6px rgba(34, 60, 80, 0.2);
@@ -54,6 +55,7 @@
     outline: none;
     height: 40px;
     font-size: 1em;
+    color: rgba(0, 0, 0, 0.507)
 }
 
 .addButtontoCart:hover {
